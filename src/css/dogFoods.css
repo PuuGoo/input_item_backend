@@ -1,0 +1,489 @@
+.dogFoods{
+    padding: 2rem 0;
+    background-color: var(--white-2);
+}
+.dogFoods .container{
+    max-width: 1400px;
+    margin: 0 auto;
+    /* max-height: 200px; */
+    /* margin-left: 57.750px; */
+}
+.dogFoods__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.dogFoods__wrapper__left{
+    padding-left: 2rem;
+    width: 170px;
+}
+.category{
+    line-height: 2rem;
+    border-bottom: 1px solid #eee;
+    width: 250px;
+}
+.category h3{
+    font-size: 1.8rem;
+    color: var(--black-4);
+    padding-bottom: 1rem;
+}
+.category li{
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 1rem;
+}
+.category a{
+    color: var(--blue-1);
+}
+
+.autoShip,
+.category__name{
+    padding: 2rem 0;
+    border-bottom: 1px solid #eee;
+    width: 250px;
+}
+.autoShip__wrapper,
+.category__name__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.autoShip__checkbox,
+.category__name__checkbox{
+    padding-right: 1rem;
+}
+.autoShip__checkbox input,
+.category__name__checkbox input{
+    width: 20px;
+    height: 20px;
+}
+.autoShip__info svg{
+    width: 24px;
+    height: 24px;
+}
+.autoShip__info a,
+.category__name__content a{
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #000044;
+}
+.autoShip__icon{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.autoShip__desc{
+    font-size: 1.4rem;
+    width: 220px;
+    padding: 1.4rem 0;
+}
+.category__name__wrapper{
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 1.4rem;
+}
+.category__name__content a{
+    color: #121212;
+    font-weight: 400;
+}
+.category__name__title{
+    font-size: 2rem;
+    font-family: "Poppins",sans-serif;
+    padding-bottom: 2rem;
+    font-weight: 500;
+}
+.category__name__icon{
+    margin-bottom: 5px;
+}
+.category__name__icon i{
+    color: #f8ae24;
+}
+.category__name__icon span{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.dogFoods__wrapper__right{
+    padding-left: 12rem;
+    padding-right: 2rem;
+    width: 1400px;
+}
+.dogFood__address{
+    display: flex;
+    align-items: center;
+}
+.dogFood__address span{
+    padding-right: 0.5rem;
+    font-size: 1rem;
+}
+.dogFood__address a{
+    color: blue;
+    text-decoration: underline;
+}
+.dogFood__address p{
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.dogFood__title{
+    font-size: 2.4rem;
+    padding: 1rem 0 2rem 0;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color: #121212;
+}
+.dogFood__banner img{
+    max-width: 1400px;
+    height: 170px;
+    padding-bottom: 20px;
+}
+.dogFood__item__list li{
+    display: inline-block;
+    padding-right: 2rem;
+}
+.dogFood__item__list img{
+    width: 100px;
+    height: 100px;
+}
+.dogFood__item__list span{
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.4rem;
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+    color: var(--gray-1);
+}
+.statistics{
+    padding-top: 8rem;
+}
+.statistics__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.statistics__title{
+    font-size: 1.8rem;
+    color: #242424;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.statistics__rank{
+    font-size: 1.8rem;
+    font-family: "Raleway",sans-serif;
+    border-radius: 8px;
+    padding: 2rem 1.4rem;
+    border: 1px solid var(--black-4);
+}
+.statistics__rank li{
+    display: inline-block;
+}
+.statistics__rank .options{
+    padding-right: 16rem;
+}
+.item__options{
+    padding-top: 2rem;
+}
+.item__options ul{
+    display: flex;
+    justify-content: space-between;
+}
+.item__options__wrapper{
+    height: 100%;
+    width: 260px;
+    border-radius: 8px;
+    border: 0.2rem solid #e2e0e0;
+}
+.item__options__description{
+    padding: 0 1.4rem;
+}
+.item__options__image{
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    width: 100%;
+}
+.item__options__image img{
+    mix-blend-mode: multiply;
+    padding: 1rem 0;
+    height: 256px;
+}
+.item__options__name{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 0 2rem 0;
+    font-family: "Poppins",sans-serif;
+    color: var(--gray-1);
+}
+.item__options__name:hover{
+    text-decoration: underline;
+}
+.item__options__desc {
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    color: #161616;
+    font-weight: 100;
+}
+.item__options__desc:hover{
+    text-decoration: underline;
+}
+.item__options__desc strong{
+    font-family: "Poppins",sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.item__options__icon{
+    color: orange;
+    font-size: 1.4rem;
+    padding: 0.5rem 0 1.5rem 0;
+}
+.item__options__price{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #bc2848;
+    padding-bottom: 1rem;
+}
+.item__options__price del{
+    font-size: 1.4rem;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    color: var(--gray-1);
+    padding-left: 0.2rem;
+}
+.item__options__new_custiomers{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--green-1);
+    color: rgb(250, 250, 250);
+    line-height: 14px;
+}
+.item__options__free{
+    padding-top: 1.4rem;
+    padding-bottom: 2.8rem;
+    font-size: 1.2rem;
+    color: var(--gray-1);
+}
+.autoShip__info__wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+.autoShip__info__wrapper .autoShip__icon{
+    padding-left: 0.5rem;
+}
+.autoShip__info__wrapper .autoShip__icon svg{
+    width: 70%;
+    height: 70%;
+}
+
+.item__options__wrapper.item__inline{
+    display: flex;
+    width: 350px;
+    height: 260px;
+}
+.item__options__wrapper.item__inline .item__options__image{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.item__options__wrapper.item__inline .item__options__image div{
+    width: 100%;
+    text-align: center;
+}
+.item__options__wrapper.item__inline img{
+    width: 120px;
+    height: 120px;
+}
+.item__options__description.item__margin{
+    margin: 4rem 0 0 0;
+}
+
+.item__options h2{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+    border-top: 1px solid #eee;
+}
+.item__options__line{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+.item__options.margin ul{
+    justify-content: initial;
+}
+.item__options.margin li{
+    padding-right: 16.66666666666667px;
+}
+
+.page__change{
+    padding: 2rem 0;
+}
+.page__change__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page__change__wrapper ul{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #002077;
+}
+.page__change__wrapper li{
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+.page__change__wrapper .page__format{
+    display: block;
+    color: #002077;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page__change__wrapper li .page__format:hover{
+    border-radius: 100%;
+    background-color: #5e5eff;
+}
+.first__page a{
+    background-color: #5e5eff;
+    border-radius: 100%;
+}
+.pre__page__btn,
+.next__page__btn{
+    border-radius: 25px;
+    border: 2px solid lightblue;
+}
+.pre__page__btn{
+    color: #aeaef0;
+    margin-right: 20px;
+}
+.next__page__btn{
+    margin-left: 20px;
+}
+.pre__page__btn i,
+.next__page__btn a{
+    padding-right: 1rem;
+    text-align: center;
+}
+.pre__page__btn div,
+.next__page__btn i{
+    display: inline-block;
+    padding-right: 2rem;
+}
+.pre__page__primary__btn,
+.next__page__primary__btn{
+    background-color: white;
+    padding: 1rem 3rem;
+}
+.next__page__btn a{
+    color: #002077;
+}
+
+.related__research,
+.explore__more{
+    padding: 2rem 0;
+}
+.related__research__wrapper h2,
+.explore__more__wrapper h2{
+    font-size: 2rem;
+    padding-bottom: 1.4rem;
+}
+.related__research__wrapper ul{
+    padding-bottom: 1.4rem;
+}
+.related__research__wrapper li{
+    display: inline-block;
+    padding-right: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.related__research__wrapper a{
+    color: #161616;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.related__research__wrapper a:hover{
+    text-decoration: underline;
+}
+.explore__more__wrapper{
+    height: 200px;
+}
+.explore__more__wrapper ul{
+    max-height: 200px;
+}
+.explore__more__wrapper li{
+    display: inline-block;
+    padding-right: 1rem;
+    text-align: center;
+}
+.explore__more__wrapper a:hover{
+    text-decoration: underline;
+}
+.explore__more__wrapper img{
+    width: 100px;
+    height: 100px;
+}
+.explore__title{
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--black-4);
+    font-weight: 600;
+    /* max-width: 100px; */
+}
+.content__para{
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    font-family: "Poppins",sans-serif;
+    color: var(--black-4);
+}
+.content__para__wrapper p{
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    line-height: 2rem;
+}
+.content__para__wrapper h4{
+    padding: 2rem 0 0 0;
+    font-size: 1.4rem;
+}
+.content__para__wrapper h2{
+    padding-top: 2rem;
+}
+.content__para__wrapper a{
+    color: var(--black-4);
+    text-decoration: underline;
+}
+.eye-brow{
+    margin-top: 20px;
+}
+.nav__wrapper a{
+    padding-left: 0!important;
+}
+::placeholder{
+    font-size: 1.4rem!important;
+    padding-left: 2px!important;
+}
+.footer-1{
+    margin-top: 3rem!important;
+}
+.footer-4{
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.dogFoods{
+    padding-bottom: 0!important;
+}
+.header-navbar-menu{
+    height: 20px;
+    margin-top: 20px;
+}
+
+#export {
+    margin-left: 127.5px;
+}
